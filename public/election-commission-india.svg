@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logosandtypes_com" data-name="logosandtypes com" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939598;
+      }
+
+      .cls-2 {
+        fill: #4db848;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #f68320;
+      }
+    </style>
+  </defs>
+  <path id="Layer_3" data-name="Layer 3" class="cls-3" d="M0,0H150V150H0V0Z"/>
+  <rect x=".73" y="34.23" width="82.66" height="30.92" transform="translate(-22.45 40.91) rotate(-42)"/>
+  <rect class="cls-4" x="6.04" y="39.95" width="72.42" height="19.77" transform="translate(-22.5 41.07) rotate(-42)"/>
+  <rect x="54.54" y="93.93" width="82.66" height="30.92" transform="translate(-48.57 92.25) rotate(-42)"/>
+  <rect class="cls-2" x="59.85" y="99.65" width="72.42" height="19.77" transform="translate(-48.62 92.41) rotate(-42)"/>
+  <path d="M89.38,40.36L27.95,95.67l20.69,23,61.43-55.31-20.69-23Zm-53.71,56.17l53.82-48.46,13.23,14.69-53.81,48.42-13.24-14.66Z"/>
+  <circle class="cls-1" cx="82.92" cy="12.72" r="11.66"/>
+  <circle class="cls-1" cx="109.86" cy="42.63" r="11.66"/>
+  <circle class="cls-1" cx="136.8" cy="72.55" r="11.66"/>
+</svg>

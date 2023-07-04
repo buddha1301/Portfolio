@@ -1,22 +1,23 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
+import boju from "/boju.png"
+import election_commision_india from "/election-commission-india.svg"
 import {setupForm} from "./counter.js"
 
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+      <img src="${election_commision_india}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+      <img src="${boju}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Online Voting System</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
+   
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      This website is strictly to be used under the guidence of polling officer representing election commission of India
+      
     </p>
 
     <form method="post" onsubmit="${setupForm()}" id="form_one">
