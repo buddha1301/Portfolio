@@ -1,7 +1,6 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
 import {setupForm} from "./counter.js"
 
 document.querySelector('#app').innerHTML = `
@@ -22,11 +21,18 @@ document.querySelector('#app').innerHTML = `
 
     <form method="post" onsubmit="${setupForm()}" id="form_one">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" ><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="lname" name="lname" ><br>
   <label for "address">Address:</label><br>
   <input type="text" id="address" name="address"> <br>
+  <br><br>
+  <label for "gender"> choose a gender:</label>
+  <select name="gender" id="gender">
+  <option value="male">male</label>
+  <option value="female">female</label>
+  </select>
+  <br><br>
   <label for="voter_id"> voter_id:</label><br>
   <input type="text" id="voter_id" name="voter_id"><br>
   <label for="word_no"> word_no:</label><br>
@@ -41,6 +47,15 @@ document.querySelector('#app').innerHTML = `
     <option value="geyzing">geyzing</option>
   </select>
     <br><br>
+<label for="parties"> choose a parties:</label>
+<select name="parties" id="parties">
+<option value="SDF">SDF</option>
+<option value="SKM">SKM</option>
+<option value="CAP">CAP</option>
+<option value="NOTA">NOTA</option>
+</select>
+<br><br>
+  
   <input type="submit" value="Submit">
 </form>
 
