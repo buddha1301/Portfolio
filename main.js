@@ -2,7 +2,7 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import {doc,setDoc} from "./firebase/config"
+import {setupForm} from "./counter.js"
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -20,7 +20,7 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
 
-    <form action="/action_page.php">
+    <form method="post" onsubmit="${setupForm()}" id="form_one">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
@@ -48,4 +48,5 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+//setupCounter(document.querySelector('#counter'))
+setupForm(document.querySelector("#form_one"))
