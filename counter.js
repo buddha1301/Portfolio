@@ -1,21 +1,5 @@
-<<<<<<< HEAD
+
 import {doc,setDoc,db} from "./firebase/config"
-/*export function setupCounter(element) {
-=======
-export function setupCounter(element) {
->>>>>>> 3af777c23d1041bcf80636337b13dc13b76e12e7
-  let counter = 0
-  const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
-  }
-  element.addEventListener('click', () => setCounter(counter + 1))
-  setCounter(0)
-<<<<<<< HEAD
-}*/
-
-
-
 export  function setupForm(element)
 {
   if(element)
@@ -45,6 +29,4 @@ export  function setupForm(element)
 }
 
 }
-=======
-}
->>>>>>> 3af777c23d1041bcf80636337b13dc13b76e12e7
+
